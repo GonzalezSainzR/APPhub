@@ -13,8 +13,11 @@
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
+                <?php
+                require_once (__DIR__ . "/model/config.php");
+                ?>
                 <div class="navbar-header">
-                    <a  href="index.php" id='APP'><img src="IMG/Logo.png" alt="Logo" height="48" width="80" id='APP' ></a>
+                    <a  href="index.php" id='APP'><img src="IMG/Logo.png" class="img-rounded" alt="Logo" height="48" width="80" id='APP' ></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <form class="navbar-form navbar-right">
@@ -25,7 +28,7 @@
                             <input type="password" placeholder="Password" class="form-control">
                         </div>
                         <button type="submit" class="btn btn-success">Sign in</button>
-                        <button type="submit" class="btn btn-info">Register</button>
+                        <a type="submit" class="btn btn-info" href="Register.php">Register</a>
                     </form>
                 </div>
             </div>
@@ -44,12 +47,12 @@
                 <div class="col-md-6">
                     <h2>Websites</h2>
                     <p>This will take you to a list of viewable websites created by APP Academy students.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View Websites &raquo;</a></p>
+                    <p><a class="btn btn-default" href="websiteView.php" role="button">View Websites &raquo;</a></p>
                 </div>
                 <div class="col-md-6">
                     <h2>Games</h2>
                     <p>This will take you to a list of playable games made by APP Academy students</p>
-                    <p><a class="btn btn-default" href="#" role="button">View Games &raquo;</a></p>
+                    <p><a class="btn btn-default" href="gameView.php" role="button">View Games &raquo;</a></p>
                 </div>
             </div>
 
