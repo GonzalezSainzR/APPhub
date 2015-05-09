@@ -22,23 +22,19 @@
         <div class="container">
             <h1 id="Register">Register</h1>
             <form  method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
-                <div id='Register'>
-                    <label for="email" id="TBox">Email:</label>
-                    <input type="text" name="email"/>
+                <div class="form-group" id="Register">
+                    <input type="text" placeholder="Email" class="form-control">
+                </div>
+
+                <div class="form-group" id="Register">
+                    <input type="text" placeholder="Username" class="form-control">
+                </div>
+                <div class="form-group" id="Register">
+                    <input type="password" placeholder="Password" class="form-control">
                 </div>
 
                 <div id='Register'>
-                    <label for="username">Username: </label>
-                    <input type="text" name="username"/>
-                </div>
-
-                <div id='Register'>
-                    <label for="password">Password: </label>
-                    <input type="password" name="password"/>
-                </div>
-
-                <div id='Register'>
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="btn btn-info">Submit</button>
                 </div>
             </form>
         </div>

@@ -20,7 +20,7 @@
                     <a  href="index.php" id='APP'><img src="IMG/Logo.png" class="img-rounded" alt="Logo" height="48" width="80" id='APP' ></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <form class="navbar-form navbar-right">
+                        <form class="navbar-form navbar-right" method='post' action='<?php echo $path . "controller/login-user.php"?>'>
                         <div class="form-group">
                             <input type="text" placeholder="Username" class="form-control">
                         </div>
@@ -28,8 +28,8 @@
                             <input type="password" placeholder="Password" class="form-control">
                         </div>
                         <button type="submit" class="btn btn-success">Sign in</button>
-                        <a type="submit" class="btn btn-info" href="Register.php">Register</a>
-                    </form>
+                        <a type="submit" class="btn btn-info" href="register.php">Register</a>
+                        </form>
                 </div>
             </div>
         </nav>
