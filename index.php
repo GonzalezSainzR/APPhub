@@ -44,15 +44,20 @@
 
         <div class="container" id='bottom'>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h2>Websites</h2>
                     <p>This will take you to a list of viewable websites created by APP Academy students.</p>
                     <p><a class="btn btn-default" href="websiteView.php" role="button">View Websites &raquo;</a></p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h2>Games</h2>
                     <p>This will take you to a list of playable games made by APP Academy students</p>
                     <p><a class="btn btn-default" href="gameView.php" role="button">View Games &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Forum</h2>
+                    <p>This will take you to a forum where you can create random topic or simply create a post asking for help on how how to solve and certain error or implement a certain feature</p>
+                    <p><a class="btn btn-default" href="Forum.php" role="button">View Forum &raquo;</a></p>
                 </div>
             </div>
 
